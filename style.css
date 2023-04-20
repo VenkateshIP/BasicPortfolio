@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Playfair+Display&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: #faf0e6;
+    width: 434px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+}
+
+.main{
+    background-color: 		#808080;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: 	#ffe4b5;
+    padding: 8px;
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tittuInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.hello{
+    font-size: 22px;
+    line-height: 4;
+    /* font-weight:300; */
+}
+
+.name{
+    font-size: 35px;
+    line-height: 0.2;
+    /*font-weight: bold;*/
+}
+.about{
+    font-size: 19px;
+    line-height: 3;
+}
+
+.moreabout{
+    font-size: 15px;
+}
+
+.buttons button{
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border: 2px solid #e7e7e7;
+  background-color: gray; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 26px -12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttons button:hover {background-color: #e7e7e7;}
+
+/*.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 3px 3px;
+    border-radius: 22px;
+    color: black;
+    background-color:  #faf0e6;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px 3px;
+    cursor:pointer;
+}*/
+
+.tittuPic img{
+    height: 58vh;
+}
+
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+  margin: 460px 80px; 
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }  
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  }  
+  .fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+  }  
+  .fa-skype {  
+    background: #00aff0;  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .newinfoContainer{
+    background-color: 	#ffe4b5;
+    padding: 8px;
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newtittuInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+
